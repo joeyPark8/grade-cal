@@ -40,17 +40,3 @@ class GradeCal {
       );
   }
 }
-
-main() async {
-  var cal = GradeCal();
-
-  var korean = await cal.cal(96, 71.4, 23.9);
-  var history = await cal.cal(100, 72.0, 29.6);
-  var math = await cal.cal(100, 73.4, 29.3);
-  var english = await cal.cal(100, 59.7, 30.2);
-
-  print(korean);
-  print(history);
-  print(math);
-  print(english);
-}
